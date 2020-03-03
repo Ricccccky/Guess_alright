@@ -1,27 +1,27 @@
-1.Èí¼ş¸ÅÊö
-Ä£ĞÍÀûÓÃÁËCNN£¬¶ÔÒÑÓĞÄ£ĞÍ½øĞĞÇ¨ÒÆÑ§Ï°
+1.è½¯ä»¶æ¦‚è¿°
+æ¨¡å‹åˆ©ç”¨äº†CNNï¼Œå¯¹å·²æœ‰æ¨¡å‹è¿›è¡Œè¿ç§»å­¦ä¹ 
 
-2.ÔËĞĞ»·¾³£º
-Èí¼ş
-Windows10£¨ÍÆ¼ö£©/ubuntu16.04
+2.è¿è¡Œç¯å¢ƒï¼š
+è½¯ä»¶
+Windows10ï¼ˆæ¨èï¼‰/ubuntu16.04
 python3.6
-tensorflow±ê×¼¿â
-numpy±ê×¼¿â
+tensorflowæ ‡å‡†åº“
+numpyæ ‡å‡†åº“
 
 
-Ó²¼ş£º
-×îµÍÅäÖÃ
-CPU:  >=4ºË2.5hz
-RAM£º>=8G
-GPU£º>=2G£¨16308M£©
+ç¡¬ä»¶ï¼š
+æœ€ä½é…ç½®
+CPU:  >=4æ ¸2.5hz
+RAMï¼š>=8G
+GPUï¼š>=2Gï¼ˆ16308Mï¼‰
 
-3.²¿ÊğÁ÷³Ì
-    Ò»¡¢ÏÂÔØ°²×°python3.6
-    ¶ş¡¢°²×°ÒÀÀµ¿â¡£Ê¹ÓÃÃüÁî pip install tensorflow  pip install numpy ¼´¿É
-    Èı ÑµÁ·£º½âÑ¹Ô´Âë°ü£¬ÔÚÃüÁîĞĞ½øÈëGuess_alright_trainÄ¿Â¼  ÊäÈëÃüÁî
+3.éƒ¨ç½²æµç¨‹
+    ä¸€ã€ä¸‹è½½å®‰è£…python3.6
+    äºŒã€å®‰è£…ä¾èµ–åº“ã€‚ä½¿ç”¨å‘½ä»¤ pip install tensorflow  pip install numpy
+    ä¸‰ è®­ç»ƒï¼šè§£å‹æºç åŒ…ï¼Œåœ¨å‘½ä»¤è¡Œè¿›å…¥Guess_alright_trainç›®å½•  è¾“å…¥å‘½ä»¤
 python preprocess.py train_img_dir list_dir
-¼´¿É¿ªÊ¼ÑµÁ·¡£ÆäÖĞtrain_img_dirÎªÑµÁ·Í¼Æ¬Ä¿Â¼µÄ¾ø¶ÔÂ·¾¶£¬ list_dirÎª±ê×¢ÎÄ¼şlist.csvµÄ¾ø¶ÔÂ·¾¶¡£ÑµÁ·½áÊøºóÔÚGuess_alright_trainÄ¿Â¼ Êä³öÄ£ĞÍÎªoutput_graph.pbºÍoutput_labels.txt¡£
-    ËÄ¡¢²âÊÔ£ºÔÚÃüÁîĞĞ½øÈëGuess_alright_testÄ¿Â¼  ÊäÈëÃüÁî
+å³å¯å¼€å§‹è®­ç»ƒã€‚å…¶ä¸­train_img_dirä¸ºè®­ç»ƒå›¾ç‰‡ç›®å½•çš„ç»å¯¹è·¯å¾„ï¼Œ list_dirä¸ºæ ‡æ³¨æ–‡ä»¶list.csvçš„ç»å¯¹è·¯å¾„ã€‚è®­ç»ƒç»“æŸååœ¨Guess_alright_trainç›®å½• è¾“å‡ºæ¨¡å‹ä¸ºoutput_graph.pbå’Œoutput_labels.txtã€‚
+    å››ã€æµ‹è¯•ï¼šåœ¨å‘½ä»¤è¡Œè¿›å…¥Guess_alright_testç›®å½•  è¾“å…¥å‘½ä»¤
 python test_version1.0.py test_img_dir
-¼´¿É¿ªÊ¼²âÊÔ¡£ÆäÖĞtest_img_dirÎªÑµÁ·Í¼Æ¬Ä¿Â¼µÄ¾ø¶ÔÂ·¾¶£¬ÑµÁ·½áÊøºóÔÚGuess_alright_testÄ¿Â¼ Êä³ö½á¹ûÎªresult.csv¡£
+å³å¯å¼€å§‹æµ‹è¯•ã€‚å…¶ä¸­test_img_dirä¸ºè®­ç»ƒå›¾ç‰‡ç›®å½•çš„ç»å¯¹è·¯å¾„ï¼Œè®­ç»ƒç»“æŸååœ¨Guess_alright_testç›®å½• è¾“å‡ºç»“æœä¸ºresult.csvã€‚
 
